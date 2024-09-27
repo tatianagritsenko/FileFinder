@@ -47,20 +47,6 @@ public class Finder {
             System.out.println("Данной директории не существует");
     }
 
-    private void print(Node tree) {
-        // добавить время
-        while (true) {
-            // Очистка консоли
-            System.out.print("\033[H\033[2J");
-            System.out.flush();
-
-            //new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-
-            System.out.printf("Найдено: %d \t Общее количество файлов: %d", findCount, totalCount);
-            tree.display();
-        }
-    }
-
     private boolean find(Node tree) {
         File dir = new File(tree.getAbsolutePath());
 

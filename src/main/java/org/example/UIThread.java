@@ -23,8 +23,7 @@ public class UIThread extends Thread {
             //System.out.flush();
 
             try {
-                new ProcessBuilder("cmd", "/c", "cls").inheritIO().sta
-            rt().waitFor();
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             } catch (IOException e) {
