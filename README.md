@@ -9,4 +9,4 @@
 
 Вывод всей информации пользователю происходит в отдельном потоке, чтобы не блокировать поиск файлов.
 
-![Пример работы программы](https://github.com/tatianagritsenko/FileFinder/raw/main/Пример работы программы.jpg)
+![Пример работы программы](https://github.com/tatianagritsenko/FileFinder/raw/main/example.jpg)
