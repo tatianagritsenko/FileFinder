@@ -1,4 +1,4 @@
-package org.example.composite;
+package org.example;
 
 public class Leaf extends Component {
     public Leaf(String name, String absolutePath, int depth) {

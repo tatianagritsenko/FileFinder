@@ -1,4 +1,4 @@
-package org.example.composite;
+package org.example;
 
 public abstract class Component {
     protected String name;
